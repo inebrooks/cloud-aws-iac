@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
     key            = "finance/front-end-systems/terraform.tfstate"
-    region         = "us-east-1"
-    bucket         = "terraform-state-store-20220701"
+    region         = "eu-west-2"
+    bucket         = "terraform-state-store-18012023"
     dynamodb_table = "terraform-locker"
     encrypt        = true
   }
